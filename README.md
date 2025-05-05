@@ -1,4 +1,4 @@
-# The Template for Hlab code
+# The Template for Hlab code（根据相关项目可以自行调整）
 
 ## Requirements(项目相关环境的要求，重要的在这个位置加以说明，其他的可以写入requirment)
 
@@ -46,8 +46,8 @@ tokenizer.apply_chat_template(dataset[0]["input_key"], tokenize=False)
 ## Test（测试部分，测试集合和相关的指标说明）
 `sh test.sh` 运行demo获取结果
 
-### 项目补充说明部分
-## 文件排布说明（这部分为例子，具体可以通过tree 当前目录得到）
+## 项目补充说明部分
+### 文件排布说明（这部分为例子，具体可以通过tree 当前目录得到）
 ```
 |-train.py             #模型训练的代码
 |-loss.py                         #训练loss的代码
@@ -68,5 +68,5 @@ tokenizer.apply_chat_template(dataset[0]["input_key"], tokenize=False)
 |-README.md                       #说明文档
 
 ```
-## Acknowledgement
+## Acknowledgement（这部分可以修改）
 Our implementation adapts [Time-Series-Library](https://github.com/thuml/Time-Series-Library) and [OFA (GPT4TS)](https://github.com/DAMO-DI-ML/NeurIPS2023-One-Fits-All) as the code base and have extensively modified it to our purposes. We thank the authors for sharing their implementations and related resources.
