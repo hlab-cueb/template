@@ -60,7 +60,7 @@ tokenizer.apply_chat_template(dataset[0]["input_key"], tokenize=False)
 |-inference_torch.py              #torch pth推理脚本
 |
 |-medels                          #网络文件
-|  |-model.py                     #通用wav2lip网络结构   
+|  |-model.py                     #通用网络结构  
 |  |-conv.py                      #网络结构OP相关库
 |
 |-results                         #视频推理结果文件夹
