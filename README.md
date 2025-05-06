@@ -6,7 +6,7 @@
 - Python3 
 - Numpy 
 
-## 项目先关的说明和流程图（如果有图的话，可以加入流程图,下图为例子）
+## 项目相关的说明和流程图（如果有图的话，可以加入流程图,下图为例子）
 <p align="center">
 <img src="./assert/sample.png" height = "360" alt="" align=center />
 </p>
@@ -39,9 +39,9 @@ tokenizer.apply_chat_template(dataset[0]["input_key"], tokenize=False)
 - [x] 拆分和dataset和配置文件（完成）
 - [x] dataset的处理方法（完成），适合在在数据预处理中完成
 - [x] 构建tensor的resize层，适应sync的部分
-- [] 将对齐的方式加入到dataset中实时处理
-- [] 对图像加入一些偏转的aug
-- [] 提供的模型的确实判别器的权重，disc的权重
+- [ ] 将对齐的方式加入到dataset中实时处理
+- [ ] 对图像加入一些偏转的aug
+- [ ] 提供的模型的确实判别器的权重，disc的权重
 
 ## Test（测试部分，测试集合和相关的指标说明）
 `sh test.sh` 运行demo获取结果
